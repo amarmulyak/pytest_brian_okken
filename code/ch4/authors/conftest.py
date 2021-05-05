@@ -16,6 +16,6 @@ def author_file_json(tmpdir_factory):
     file_ = tmpdir_factory.mktemp('data').join('author_file.json')
     print('file:{}'.format(str(file_)))
 
-    with file.open('w') as f:
+    with file_.open('w') as f:
         json.dump(python_author_data, f)
-    return file
+    return file_

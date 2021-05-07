@@ -1,5 +1,5 @@
 import copy
-import cheese
+from ch4.monkey import cheese
 
 
 def test_def_prefs_full():

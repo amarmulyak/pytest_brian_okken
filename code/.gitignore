@@ -2,3 +2,6 @@ __pycache__
 .idea
 tasks.egg-info/
 pytest
+.tox
+__init__.pyc
+
